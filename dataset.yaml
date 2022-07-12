@@ -1,0 +1,7 @@
+path: ../data
+train: images  
+val: images 
+
+# Classes
+nc: 2  # number of classes
+names: [ 'awake', 'drowsy']  # class names

@@ -14,5 +14,5 @@ Downloaded Model
 Run in realtime, see realtime_drowsiness.py
 
 ### Results
-![AWAKE](awake_0.27.png)
-![DROWSY](drowsy_0.47.png)
+![AWAKE](results-img/awake_0.27.png)
+![DROWSY](results-img/drowsy_0.47.png)

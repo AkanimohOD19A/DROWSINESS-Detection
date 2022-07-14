@@ -1,3 +1,8 @@
+## Install Dependencies
+# !pip install torch
+# !pip install cv2
+# !pip install numpy
+
 ## Dependencies
 import torch
 import cv2

@@ -2,6 +2,7 @@
 # !pip install torch
 # !pip install cv2
 # !pip install numpy
+# pip list | grep opencv
 
 ## Dependencies
 import torch
@@ -11,10 +12,10 @@ import numpy as np
 print("Loaded Dependencies.", '/n')
 
 ## Load Model
-run_model_path = 'last_drowsy_v2.pt'
-model = torch.hub.load('utralytics/yolov5',
-                       'custom',
-                       path=run_model_path)
+run_model_path = './last_drowsy_v4.pt'
+model = torch.hub.load('ultralytics/yolov5', 'custom', path=run_model_path)
+
+# ('ultralytics/yolov5', 'custom', path='path/to/best.pt', source='local')
 
 print("Loaded Model.", '/n')
 
@@ -28,7 +29,9 @@ while cap.isOpened():
         break
 
 cap.release()
-cap.destroyAllWindows()
+cv2.destroyAllWindows()
 
 print("Released")
+
+# model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 

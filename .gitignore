@@ -1,4 +1,6 @@
-yolov5/ 
+yolov5/
+results-img
+results-model
 awake_0.27.jpg 
 drowsy_0.47.jpg
 rename.py
@@ -9,5 +11,3 @@ cam_app.py
 last_drowsy_v2.pt
 last_drowsy_v3.pt
 v2_DROWSINESS.ipynb
-results-img
-results-model

@@ -81,14 +81,15 @@ pip install -r requirements.txt
 python realtime_drowsiness.py
 ```
 
+
 ---
 
 ## 📬 Contact
+Email: [danielamahtoday@gmail.com]
 
-Created by [AfroLogicInsect](https://github.com/AkanimohOD19A)  
-DEV Profile: [Daniel's Articles](https://dev.to/afrologicinsect)
+Blog: [AfroLogicInsect](https://dev.to/afrologicinsect)  
+GitHub: [AkanimohOD19A](https://github.com/AkanimohOD19A)
+Website: [https://akandaniel.netlify.app]
 
----
-### Results
 ![AWAKE](results-img/awake_0.27x.jpg)
 ![DROWSY](results-img/drowsy_0.47x.png)

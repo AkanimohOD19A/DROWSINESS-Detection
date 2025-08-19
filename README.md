@@ -90,5 +90,5 @@ DEV Profile: [Daniel's Articles](https://dev.to/afrologicinsect)
 
 ---
 ### Results
-![AWAKE](results-img/awake_0.27x.png)
+![AWAKE](results-img/awake_0.27x.jpg)
 ![DROWSY](results-img/drowsy_0.47x.png)
